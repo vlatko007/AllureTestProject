@@ -29,7 +29,7 @@ public class WedoqaBlogPage extends BasePage {
 
     public void clickFirstPost() {
         
-        postsRoots.stream().findAny().get().findElement(By.cssSelector(".title a")).click();
+        postsRoots.stream().findAny().get().findElement(By.cssSelector("a")).click();
     }
     
     public void clickRandomPost() {
